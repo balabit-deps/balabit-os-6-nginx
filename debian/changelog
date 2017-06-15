@@ -1,3 +1,12 @@
+nginx (1.10.0-0ubuntu0.16.04.4bb60) xenial-security; urgency=medium
+
+  * Workaround pidfile handling not to print this warning in the log:
+    "nginx.service: Failed to read PID from file /run/nginx.pid: Invalid argument"
+    The warning message shows there is a race condition. The pidfile is not written
+    yet when systemd is trying to read it.
+
+ -- Laszlo Megyer <laszlo.megyer@balabit.com>  Thu, 15 Jun 2017 14:03:19 +0200
+
 nginx (1.10.0-0ubuntu0.16.04.4) xenial-security; urgency=medium
 
   * SECURITY REGRESSION: config upgrade failure (LP: #1637058)
