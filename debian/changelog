@@ -1,3 +1,27 @@
+nginx (1.10.3-0ubuntu0.16.04.2) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: integer overflow in range filter leading to
+    information exposure
+    - debian/patches/CVE-2017-7529.patch: add check to ensure size does
+      not overflow
+    - CVE-2017-7529
+
+ -- Steve Beattie <sbeattie@ubuntu.com>  Wed, 12 Jul 2017 03:20:18 -0700
+
+nginx (1.10.3-0ubuntu0.16.04.1) xenial; urgency=medium
+
+  * Stable Release Update (LP: #1663937)
+  * New upstream release (1.10.3) - full changelog available at upstream
+    website - http://nginx.org/en/CHANGES-1.10
+  * All Ubuntu specific changes from 1.10.0-0ubuntu1 through
+    1.10.0-0ubuntu0.16.04.4 remain included.
+  * Additional changes:
+    * debian/patches/ubuntu-branding.patch: Refreshed Ubuntu Branding patch.
+    * debian/patches/cve-2016-4450.patch: Drop CVE patch as it is already
+      included in the upstream source code in this upload.
+
+ -- Thomas Ward <teward@ubuntu.com>  Sat, 11 Feb 2017 16:18:21 -0500
+
 nginx (1.10.0-0ubuntu0.16.04.4bb60) xenial-security; urgency=medium
 
   * Workaround pidfile handling not to print this warning in the log:
