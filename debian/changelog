@@ -1,3 +1,9 @@
+nginx (1.10.3-0ubuntu0.16.04.4bb1) xenial; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 24 Aug 2019 04:26:53 +0200
+
 nginx (1.10.3-0ubuntu0.16.04.4) xenial-security; urgency=medium
 
   * SECURITY UPDATE: HTTP/2 Data Dribble issue
