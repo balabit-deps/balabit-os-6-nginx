@@ -1,3 +1,9 @@
+nginx (1.10.3-0ubuntu0.16.04.5bb1) xenial; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 18 Jan 2020 04:22:25 +0100
+
 nginx (1.10.3-0ubuntu0.16.04.5) xenial-security; urgency=medium
 
   * SECURITY UPDATE: request smuggling via error_page
